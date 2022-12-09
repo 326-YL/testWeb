@@ -1,0 +1,34 @@
+{
+    "name": "video-game-website",
+    "version": "1.0.0",
+    "engines": {
+      "node": "18.x",
+      "npm": "8.x"
+    },
+    "description": "a web application for video game searching, reviewing,collecting",
+    "main": "script.js",
+    "directories": {
+      "doc": "doc"
+    },
+    "scripts": {
+      "start": "node server.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/326-YL/cs326-final-Dalet.git"
+    },
+    "keywords": [
+      "boostrap"
+    ],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/326-YL/cs326-final-Dalet/issues"
+    },
+    "homepage": "https://github.com/326-YL/cs326-final-Dalet#readme",
+    "dependencies": {
+      "axios": "^1.2.1",
+      "express": "^4.18.2",
+      "pg": "^8.8.0"
+    }
+  }  
